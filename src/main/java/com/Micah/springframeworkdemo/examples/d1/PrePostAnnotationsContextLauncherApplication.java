@@ -60,9 +60,9 @@ public class PrePostAnnotationsContextLauncherApplication {
 		try (AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
 				PrePostAnnotationsContextLauncherApplication.class)) {
 
-			var beans = context.getBeanDefinitionNames();
-			for (String bean : beans)
-				System.out.println(bean);
+//			var beans = context.getBeanDefinitionNames();
+//			for (String bean : beans)
+//				System.out.println(bean);
 		}
 
 	}
