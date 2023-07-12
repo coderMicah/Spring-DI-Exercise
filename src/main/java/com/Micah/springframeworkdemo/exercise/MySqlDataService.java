@@ -1,8 +1,10 @@
 package com.Micah.springframeworkdemo.exercise;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+//@Component
+//Instead of @Component we can use @Repository to indicate the class manipulate or retrieve data from database
+@Repository
 public class MySqlDataService implements DataService {
 
 	@Override

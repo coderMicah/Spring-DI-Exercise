@@ -2,9 +2,11 @@ package com.Micah.springframeworkdemo.exercise;
 
 import java.util.Arrays;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+//@Component
+//Instead of using @Component we can use @Service to indicate the class has business logic
+@Service
 public class BusinessCalculationService {
 	private DataService dataService;
 
